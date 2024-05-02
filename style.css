@@ -71,7 +71,7 @@ header {
 nav {
     display: flex;
     font-size: 2rem;
-    width: 50%;
+    width: 65%;
     justify-content: space-between;
     align-items: center;
     color: var(--secondary-color);
@@ -118,8 +118,8 @@ section {
     width: 100%;
     font-family: “Times New Roman”, Times, serif;
     background-image: url(img/klipartz.com.png);
-background-size: contain;
-    background-position: 40rem 0;
+    background-size: contain;
+    background-position: 35rem 0;
     background-repeat: no-repeat;
 }
 .intro div{
