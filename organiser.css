@@ -1,0 +1,124 @@
+.organise {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: “Times New Roman”, Times, serif;
+    flex-grow: 1;
+    margin-top: 10rem;
+    width: 90%;
+    gap: 70px;
+    color: var(--secondary-color);
+}
+
+.head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.head h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.head h1::after {
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 5px;
+    background: var(--primary-color);
+    transform-origin: center;
+    /* Changed to center */
+    animation-name: underline;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes underline {
+    0% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.head p {
+    width: 50%;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.organise h2 {
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.organise ul {
+    display: flex;
+    place-self: flex-start;
+    list-style: none;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 3rem;
+}
+
+.organise ul .categorie {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 5rem;
+
+}
+
+.titles h1 {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.titles p {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.places button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.places button:focus {
+    outline: none;
+}
+
+.places a {
+    text-decoration: none;
+}
+
+.places img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: var(--transition);
+}
+
+.places img:hover {
+    transform: scale(0.9);
+    box-shadow: 0 0 20px var(--primary-color);
+}
