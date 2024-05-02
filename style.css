@@ -354,5 +354,5 @@ form button:hover {
     transition: var(--transition);
   }
   footer h1:hover {
-    transform: scale(1.5);
+    transform: scale(0.9);
   }
