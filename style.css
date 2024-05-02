@@ -38,6 +38,7 @@ header {
   box-shadow: 0 0 10px var(--primary-color);
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 .pageTitle {
@@ -242,7 +243,7 @@ form button:hover {
   transition: var(--transition);
 }
 .albumTitle:hover{
-    transform: scale(0.9);
+    text-shadow : 0 0 10px var(--primary-color);
 }
 .album-photos{
     display: flex;
@@ -257,7 +258,32 @@ form button:hover {
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
-    transition: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transition: var(--transition);
+}
+.album-photos span{
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  position: absolute;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  width: 200px;
+  text-align: center;
+  font-weight: 900;
+  transform: translate(50%, -300px);
+  transition: var(--transition);
+  opacity: 0;
+}
+.album-photos a:hover span{
+  transform: translate(50%, -450px);
+  opacity: 1;
+
+}
+
+.album-photos img:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 20px var(--primary-color);
 }
 
 /* Footer */
