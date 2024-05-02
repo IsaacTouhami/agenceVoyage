@@ -33,17 +33,13 @@
     <!--Page head-->
     <div id="top"></div>
     <header>
-      <h1 class="pageTitle"><img src="img/Saferr.png" alt="" />Saferr!</h1>
-      <nav>
-        <a href="index.html"> <i class="fas fa-home"></i>Accueil</a>
-        <a href="organiser-voyage.html"
-          ><i class="fas fa-plane"></i> Organiser un voyage</a
-        >
-        <a href="jeux-detente.html"
-          ><i class="fas fa-gamepad"></i> Jeu et détente</a
-        >
-      </nav>
-    </header>
+    <h1 class="pageTitle"><img src="img/Saferr.png" alt="" />Saferr!</h1>
+    <nav>
+        <a href="index.php"> <i class="fas fa-home"></i>Accueil</a>
+        <a href="organiser-voyage.php"><i class="fas fa-plane"></i> Organiser un voyage</a>
+        <a href="jeux-detente.php"><i class="fas fa-gamepad"></i> Jeu et détente</a>
+    </nav>
+</header>
 
     <section>
       <h1>Organiser votre voyage</h1>

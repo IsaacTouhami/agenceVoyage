@@ -33,63 +33,18 @@
     <!--Page head-->
     <div id="top"></div>
     <header>
-      <h1 class="pageTitle"><img src="img/Saferr.png" alt="" />Saferr!</h1>
-      <nav>
-        <a href="index.html"> <i class="fas fa-home"></i>Accueil</a>
-        <a href="organiser-voyage.html"
-          ><i class="fas fa-plane"></i> Organiser un voyage</a
-        >
-        <a href="jeux-detente.html"
-          ><i class="fas fa-gamepad"></i> Jeu et détente</a
-        >
-      </nav>
-    </header>
+    <h1 class="pageTitle"><img src="img/Saferr.png" alt="" />Saferr!</h1>
+    <nav>
+        <a href="index.php"> <i class="fas fa-home"></i>Accueil</a>
+        <a href="organiser-voyage.php"><i class="fas fa-plane"></i> Organiser un voyage</a>
+        <a href="jeux-detente.php"><i class="fas fa-gamepad"></i> Jeu et détente</a>
+    </nav>
+</header>
     <!----------------------------------------------------------------------------------->
     <!----------------------------------------------------------------------------------->
     <!--Page section-->
-    <section>
-      <div class="intro">
-        <div>
-          <h1>Bienvenue sur Saferr!</h1>
-          <p>
-            notre agence de voyage offre un service de qualité, vous pouvez
-            organiser votre voyage en toute sécurité et simplicité.
-          </p>
-        </div>
-        <form>
-          <label for="username">Nom d'utilisateur:</label>
-          <input type="text" id="username" name="username" required />
-          <label for="password">Mot de passe:</label>
-          <input type="password" id="password" name="password" required />
-          <button type="submit">Se connecter</button>
-        </form>
-      </div>
-      <h1 class="albumTitle">Album de Photos</h1>
-      <div class="album-photos">
-        <a href="https://en.wikipedia.org/wiki/Paris" target="_blank"
-          ><img src="img/paris.jpg" alt="Lieu 1" />
-          <span>Paris</span>
-        </a>
-        <a href="https://en.wikipedia.org/wiki/Cairo" target="_blank"
-          ><img src="img/cairo.jpg" alt="Lieu 2" /><span>Cairo</span></a
-        >
-        <a
-          href="https://ar.wikipedia.org/wiki/%D9%82%D8%B3%D9%86%D8%B7%D9%8A%D9%86%D8%A9"
-          target="_blank"
-          ><img src="img/constantine.jpg" alt="Lieu 3" />
-          <span>Constantine</span></a
-        >
-        <a
-          href="https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
-          target="_blank"
-          ><img
-            src="img/pW3OGKV-leaning-tower-of-pisa-wallpaper.jpg"
-            alt="Lieu 4"
-          />
-          <span> Pisa Tour</span>
-        </a>
-      </div>
-    </section>
+
+    <section></section>
     <!----------------------------------------------------------------------------------->
     <!----------------------------------------------------------------------------------->
     <!--Page footer-->
