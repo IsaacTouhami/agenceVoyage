@@ -1,4 +1,7 @@
 
+#top{
+  visibility: hidden;
+}
 /* Root*/
 :root{
     --primary-color: #369acf;
@@ -373,6 +376,7 @@ form button:hover {
   
   footer h1 {
     font-size: 2rem;
+    text-align: center;
     cursor: pointer;
     font-weight: bold;
     margin-bottom: 30px;
@@ -381,4 +385,23 @@ form button:hover {
   }
   footer h1:hover {
     transform: scale(0.9);
+  }
+  footer .topButton{
+    position: absolute;
+    display: grid;
+    place-items: center ;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 2rem;
+    right: 5%;
+    margin: 10px;
+    transition: 0.1s ease;
+    text-decoration: none;
+  }
+  footer .topButton:active{
+    transform: scale(0.9);
+ 
   }
