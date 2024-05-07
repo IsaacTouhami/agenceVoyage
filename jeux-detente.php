@@ -44,7 +44,7 @@ $quizzes_guess_country = array(
     array(
         'question' => "Devinez le pays:",
         'image' => "img/cairo.jpg",
-        'correct_answer' => "Cairo"
+        'correct_answer' => "Egypt"
     ),
     array(
         'question' => "Devinez le pays:",
@@ -123,7 +123,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['play_again'])) {
 
 ?>
 
-<!DOCTYPE html>
+<!DOCTYPE html>    gap: 20px;
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
